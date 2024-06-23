@@ -2,11 +2,11 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 -- SQL challenge: ERD Employee
-DROP TABLE IF EXISTS departments CASCADE;
 DROP TABLE IF EXISTS dept_emp;
 DROP TABLE IF EXISTS dept_manager;
-DROP TABLE IF EXISTS employees CASCADE;
 DROP TABLE IF EXISTS salaries;
+DROP TABLE IF EXISTS departments;
+DROP TABLE IF EXISTS employees;
 DROP TABLE IF EXISTS titles;
 	
 CREATE TABLE departments (
