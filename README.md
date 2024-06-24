@@ -1,20 +1,5 @@
 # sql-challenge
 
-## This repository contains five (5) folders as follows:
-
-1. data: Contains tables for import in CSV format (6 tables).
-   
-3. ERD Employee: Includes all export files from QuickDBD in different formats such as PDF, PNG, SQL, and TXT. ERD stands for entity relationship diagram.
-   
-5. Data Engineering: Contains all (6) export tables from pgAdmin 4 in CSV format, table schema in SQL format, and ERD PostgreSQL in PGerd format.
-   
-7. Data Analysis: Contains responses to questions about analysis in SQL format.
-   
-9. Submission: Includes three files:
-      a. ERD Employee (PNG format)
-      b. Schema Employee (SQL format)
-      c. Employees queries (SQL format)
-
 ## This challenge was divided into three parts: data modeling, data engineering, and data analysis.
 
 ### Data Modeling
@@ -46,3 +31,19 @@ The data analysis addresses the following:
     7. Each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
     
     8. The frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+
+  ### According to the above,This repository contains five (5) folders as follows:
+
+1. data: Contains tables for import in CSV format (6 tables).
+   
+3. ERD Employee: Includes all export files from QuickDBD in different formats such as PDF, PNG, SQL, and TXT. ERD stands for entity relationship diagram.
+   
+5. Data Engineering: Contains all (6) export tables from pgAdmin 4 in CSV format, table schema in SQL format, and ERD PostgreSQL in PGerd format.
+   
+7. Data Analysis: Contains responses to questions about analysis in SQL format.
+   
+9. Submission: Includes three files:
+    
+      #### a. ERD Employee (PNG format): Data Modeling
+      #### b. Schema Employee (SQL format): Data Engineering.
+      #### c. Employees queries (SQL format): Data Analysis.
