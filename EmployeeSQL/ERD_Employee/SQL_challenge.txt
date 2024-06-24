@@ -1,4 +1,7 @@
-# SQL challenge
+--SQL challenge
+-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
+-- Link to schema: https://app.quickdatabasediagrams.com/#/d/o8pdZN
+
 
 departments
 -
