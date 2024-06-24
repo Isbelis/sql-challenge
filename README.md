@@ -2,10 +2,10 @@
 
 ## This challenge was divided into three parts: data modeling, data engineering, and data analysis.
 
-### Data Modeling
+### 1. Data Modeling
 Inspected the CSV files, and then sketched an Entity Relationship Diagram of the tables. To create the sketch, feel free to use a tool like QuickDBD.
 
-### Data Engineering
+### 2. Data Engineering
 Used the provided information to create a table schema for each of the six CSV files. The following steps were completed:
 
     - Specified the data types, primary keys, foreign keys, and other constraints.
@@ -13,7 +13,7 @@ Used the provided information to create a table schema for each of the six CSV f
     - Created the tables in the correct order to handle the foreign keys.
     - Imported each CSV file into its corresponding SQL table.
     
-### Data Analysis
+### 3. Data Analysis
 The data analysis addresses the following:
 
     1. The employee number, last name, first name, sex, and salary of each employee.
