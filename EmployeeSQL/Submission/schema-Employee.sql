@@ -9,6 +9,50 @@ DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS employees;
 DROP TABLE IF EXISTS titles;
 
+# SQL challenge
+
+departments
+-
+dept_no CHAR(4) PK
+dept_name VARCHAR(50)
+
+
+
+
+dept_emp
+-
+emp_no  INTEGER PK FK >- employees.emp_no
+dept_no CHAR(4) PK FK >- departments.dept_no
+
+dept_manager 
+-
+dept_no CHAR(4) FK >- departments.dept_no
+emp_no INTEGER PK FK - employees.emp_no
+
+
+
+employees
+-
+emp_no INTEGER PK 
+emp_title_id CHAR(5) FK >- titles.title_id
+birth_date date
+first_name VARCHAR(20)
+last_name VARCHAR(20)
+sex CHAR(1)
+hire_date date
+
+
+salaries
+-
+emp_no INTEGER PK FK - employees.emp_no
+salary INTEGER
+
+
+titles
+-
+title_id CHAR(5) PK 
+title VARCHAR(50) 
+
 
 	
 CREATE TABLE departments (
