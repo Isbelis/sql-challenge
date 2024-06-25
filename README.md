@@ -44,7 +44,7 @@ The data analysis addresses the following:
     8. The frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 
 
-According to the above, this repository contains the following:
+According to the above, this repository contains a directory called 'EmployeeSQL', which has the following:
 
 #### Folders:
 ##### 1. data: Contains tables for import in CSV format (6 tables).
