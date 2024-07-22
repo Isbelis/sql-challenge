@@ -12,7 +12,7 @@ dept_no CHAR(4) PK FK >- departments.dept_no
 
 dept_manager 
 -
-dept_no CHAR(4) FK >- departments.dept_no
+dept_no CHAR(4)PK FK >- departments.dept_no
 emp_no INTEGER PK FK - employees.emp_no
 
 employees
